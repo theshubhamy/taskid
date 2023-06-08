@@ -1,7 +1,12 @@
 import React from "react";
-
+import Header from "@/components/Header";
 const Auth = () => {
-  return <div>login</div>;
+  return (
+    <>
+      <Header />
+      <h1> Login</h1>
+    </>
+  );
 };
 
 export default Auth;
